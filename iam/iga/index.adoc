@@ -10,7 +10,7 @@ Simply speaking, IGA deals with all the details concerning maintenance of identi
 
 IGA systems store, synchronize and manage identity information, such as user profiles.
 Complex data, entitlement and governance polices can be defined, applied to identity data.
-IGA system are responsible for evaluating the policies, making sure the data are compliant, addressing policy violations.
+IGA systems are responsible for evaluating the policies, making sure the data are compliant, addressing policy violations.
 IGA is often considered an umbrella term covering glossref:identity-management[identity management], glossref:identity-governance[identity governance], compliance management, identity-based risk management and other aspects related to management of identities.
 
 IGA covers a very broad area of IAM, however, it does not cover it all.
@@ -23,7 +23,7 @@ IGA is not directly concerned with authorization either, although management of 
 Identity professionals, often motivated by marketing needs, like to invent new names and use them to describe the same thing.
 Therefore there are many overlapping, overloaded and similar terms in use.
 _Identity management_ (IDM) is used to describe the low-level parts (technology), while _identity governance_ is used to describe the high-level parts (business). Yet the boundary is very fuzzy and many IDM systems provide governance capabilities, and many governance systems provide low-level functions.
-_Governance, risk management and compliance (GRC)_ is a terms that was mostly used in the past to represent the high-level identity governance functionality, later known simply as _identity governance_.
+_Governance, risk management and compliance (GRC)_ is a term that was mostly used in the past to represent the high-level identity governance functionality, later known simply as _identity governance_.
 _Identity security_ is a marketing term that roughly covers IGA functionality.
 
 Overall, the terminology is very fluid.
@@ -59,11 +59,11 @@ IGA platform relies on access to reliable identity information, without any filt
 _Direct_ connection to applications and data stores is almost always essential for IGA platform to function properly (see xref:../antipatterns/indirect-access.adoc[indirect access antipattern] for more details).
 Applications that store identity data in their own databases should be always connected to the IGA platform directly.
 Applications that use identity data located in glossref:identity-data-store[identity data store] (such as LDAP servers or Active Directory) and do not make a persistent local copy of the information does not need to be connected to IGA platform.
-However, IGA platform should be aware of an existence of such application, and relation of data store entitlements (such as LDAP groups) to the application.
+However, IGA platform should be aware of an existence of such applications, and relation of data store entitlements (such as LDAP groups) to the applications.
 
 IGA platform is processing various policies in its policy engines, including glossref:rbac[role-based policies], governance policies, organizational policies and so on.
 Policy engine is usually one of the most complex parts of the platform.
-Most parts of the policy is processed in full-automatic mode, however, some parts require interaction with users and administrators.
+Most parts of the policy are processed in full-automatic mode, however, some parts require interaction with users and administrators.
 For that purpose, and also for other purposes almost all IGA platforms provide comprehensive user interface.
 User interface usually provides several functions:
 
