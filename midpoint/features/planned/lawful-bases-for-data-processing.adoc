@@ -11,7 +11,7 @@
 == Motivation
 
 Identity management and governance is all about processing personal information.
-Processing data on employees, contractors, students and other identity types is the main focus of identity management and governance systems.
+Processing data of employees, contractors, students and other identity types is the main focus of identity management and governance systems.
 Processing of such data were mostly governed by internal policies of the organizations that did the processing.
 The privacy legislation was not entirely strong, it was not consistent and it was often not strictly enforced.
 But that is very likely to change as soon as the General Data Protection Regulation (GDPR) becomes enforceable.
